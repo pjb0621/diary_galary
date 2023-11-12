@@ -1,0 +1,63 @@
+
+.topnav #instagram{
+    width : 100px;
+    height : 30px;
+    float : left;
+    margin : 20px 100px 10px 10px;
+   
+}
+
+input#search{
+    float : left;
+    background-image : url("img/Search.png");
+    box-sizing : border-box;
+    border : 2px solid #ccc;
+    border-radius : 8px;
+    font-size : 16px;
+    background-color: white; 
+    background-position: 11px 11px; /* 돋보기 위치 조정 */
+    background-repeat: no-repeat;
+    background-size : 20px 20px;
+    padding : 12px 20px 12px 50px;
+    width : 300px;
+
+    /* 상대위치 조정 */
+    position : absolute;
+    top : 50%;
+    transform : translate(0, -50%);
+}
+
+.topnav{
+    background-color:#ccc;
+    overflow: hidden;
+    padding-bottom : 10px;
+    border-bottom : 1px solid gray;
+    position : relative;
+}
+
+.topnav .nav_item{
+    
+    position : absolute;
+    top: 50%;
+    right : 0%;
+    transform: translate(0, -50%);
+
+}
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding : 14px 16px;
+    text-decoration: none;
+    font-size:17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color:black;
+}
+
+.topnav a.active{
+    background-color: #04AA6D;
+    color:white;
+}
